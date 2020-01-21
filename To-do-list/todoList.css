@@ -1,0 +1,102 @@
+.cupBoard {
+    margin: 0 auto;
+    width: 500px;
+    height: 600px;
+    background-image: url(https://www.iconninja.com/files/162/481/72/paper-clipboard-icon.png);
+    background-size: 100% 100%;
+}
+
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+.container {
+    padding-top: 110px;
+    margin: 0 auto;
+    width: 600px;
+    margin-left: 50px;
+
+}
+
+.form {
+    height: 25px;
+    margin: 0px 0px 35px 70px;
+}
+
+.addInput {
+    margin: 0px 0px 0px 0px;
+    border: 1px solid black;
+    border-radius: 0;
+    width: 185px;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.addButton {
+    margin: 0;
+    width: 75px;
+    height: 47px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.addButton:hover {
+    background-color: #E7E1E1;
+    cursor: pointer;
+}
+.addButton:active {
+    background-color: #9E8F8F;
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
+}
+
+li {
+    width: 330px;
+    list-style-type: none;
+    position: relative;
+    display: block;
+    padding: 1px 11px 3px 50px;
+    margin-bottom: 12px;
+    height: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.done {
+    text-decoration: line-through;
+    padding-bottom: 3px;
+}
+.done::before {
+    content: "\2713";
+    padding-right: 20px;
+    display: inline-block;
+    
+}
+
+.close {
+  padding-left: 10px;
+}
+
+.textSpan {
+    cursor: pointer;
+    padding : 3px 0px 0px 15px;
+    font-family: Handlee
+}
+.textSpan:hover {
+    font-weight: 900;
+}
+.fa {
+    cursor: pointer;
+}
